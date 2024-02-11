@@ -29,6 +29,18 @@ a{
     color: rgb(0, 0, 0);
 }
 
+
+
+/*ahmed*/
+.logo2{
+    position: fixed;
+    height: auto;
+    left: 0px;
+   float: left;
+   margin-left: 650px;
+   margin-top: 100px;
+}
+
 select{
     height: 35px ;
     background-color: rgb(255, 196, 59);
