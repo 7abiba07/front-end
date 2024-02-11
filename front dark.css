@@ -49,3 +49,33 @@ select{
     height: 30px ;
     background-color: rgb(255, 196, 59);
 }
+
+/** Feryal**/
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .rectangle {
+    width: 5px;
+    height: 100px;
+    margin-left: 50px;
+    background-color: rgb(234, 184, 33);
+    position: relative;
+  }
+  .rectangle::before,
+  .rectangle::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%; 
+  }
+  .rectangle::after {
+    right: 0;
+  }
+  .quote {
+    margin-left: 15px;
+    font-family: Times New Roman, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
