@@ -31,6 +31,20 @@ a{
     color: aliceblue;
 }
 
+/*ahmed*/
+body{
+    background-color: #1e1e1e;
+}
+
+.logo2{
+    position: fixed;
+    height: auto;
+    left: 0px;
+   float: left;
+   margin-left: 650px;
+   margin-top: 100px;
+}
+
 select{
     height: 30px ;
     background-color: rgb(255, 196, 59);
